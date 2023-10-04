@@ -2,8 +2,7 @@ var express = require('express'),
     morgan = require('morgan'),
     compress = require('compression'),
     bodyParser = require('body-parser'),
-    methodOverride = require('method-override'),
-    port = process.env.PORT || 5000;
+    methodOverride = require('method-override')
 
 module.exports = function () {
     var app = express();
