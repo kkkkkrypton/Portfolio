@@ -1,0 +1,55 @@
+<!--/*  
+Yue Wang Personal Portfolio
+Author: Yue Wang
+Student#: 301369283
+Date: 10/3/2023
+*/-->
+
+<%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title>Home Page</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width" ,initial-scale=1.0>
+            <link rel="stylesheet" type="text/css" herf="Assets/style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </head>
+
+        <body>
+
+            <div class="home-me">
+                <div class="container">
+
+                    <div class="hello">
+                        <h1>Hi,</h1>
+                        <h1>I'm <span class="name">Yue Wang</span></h1>
+                        <h2>Junior Software Developer</h2>
+                        <p>
+                            A highly motivated software engineer seeking a position where I can apply my analytical
+                            skills, technical knowledge, and experience with various programming languages to develop
+                            high-quality software solutions.
+                        </p>
+                        <div class="button-list">
+                            <a href="/about"><button class="btnabout" type="button">About Me</button></a>
+                            <a href="/contact"><button class="btnhire" type="button">Hire Me</button></a>
+                        </div>
+                    </div>
+
+
+                    <div class="homepic">
+                        <img src="/img/home1.jpg">
+                    </div>
+
+
+                </div>
+            </div>
+
+        </body>
+
+
+        <!--script section-->
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>

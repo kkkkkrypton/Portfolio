@@ -1,0 +1,271 @@
+/*  
+Yue Wang Personal Portfolio
+Author: Yue Wang
+Student#: 301369283
+Date: 10/3/2023
+*/
+
+html,
+body {
+    min-height: 100%;
+}
+
+.about-me {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro {
+    flex: 2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+
+.intro h5 {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+.intro p {
+    font-size: 23px;
+}
+
+.profilepic {
+    flex: 1
+}
+
+.profilepic img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+footer {
+    color: darkslategrey;
+    bottom: 0;
+    position: fixed;
+}
+
+.home-me {
+    padding: 20px;
+}
+
+
+
+.hello {
+    flex: 2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-height: fit-content;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+.hello h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hello p {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.hello h2 {
+    color: rgb(106, 78, 165);
+    font-size: 40px;
+    padding-top: 15px;
+
+}
+
+.homepic {
+    flex: 1
+}
+
+.homepic img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.name {
+    color: rgb(95, 113, 160);
+    size: 60px;
+    font-weight: bolder;
+}
+
+.button-list {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.btnabout {
+    border: none;
+    outline: none;
+    padding: 0.3em 0.5em;
+    border-radius: 1em;
+    margin-right: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(226, 220, 232);
+    cursor: pointer;
+}
+
+.btnabout:hover {
+    background-color: rgb(173, 120, 222);
+}
+
+.btnhire {
+    border: none;
+    outline: none;
+    padding: 0.3em 0.5em;
+    border-radius: 1em;
+    margin-right: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(226, 220, 232);
+    cursor: pointer;
+}
+
+.btnhire:hover {
+    background-color: rgb(173, 120, 222);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding: 40px;
+
+}
+
+.gallery {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+.gallery p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 40px;
+}
+
+.gallery h1 {
+    font-size: 23px;
+    align-items: cneter;
+    font-weight: bold;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.service-column {
+    flex: 1;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+/* CSS styles for the service items (titles and lists) */
+.service-item {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item i {
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+.service-item h3 {
+    padding-top: 10%;
+    font-size: 30px;
+    margin: 0;
+    align-items: center;
+}
+
+.service-item ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.service-item li {
+    font-size: 20px;
+    align-items: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h1 {
+    font-size: 30px;
+    padding-top: 0.3px;
+    padding-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 20px;
+    width: 150px;
+}
+
+.form-group input {
+    font-size: 20px;
+    max-width: 350px;
+}
+
+.btnsubmit {
+    border: none;
+    outline: none;
+    padding: 0.3em 0.5em;
+    border-radius: 1em;
+    margin-right: 30px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(226, 220, 232);
+    cursor: pointer;
+    align-items: center;
+}
+
+.btnsubmit:hover {
+    background-color: rgb(173, 120, 222);
+}
