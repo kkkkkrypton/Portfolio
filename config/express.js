@@ -3,7 +3,7 @@ var express = require('express'),
     compress = require('compression'),
     bodyParser = require('body-parser'),
     methodOverride = require('method-override'),
-    path = require('path');
+    port = process.env.PORT || 5000;
 
 module.exports = function () {
     var app = express();
