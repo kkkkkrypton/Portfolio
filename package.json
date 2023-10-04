@@ -2,7 +2,7 @@
   "name": "yuewang_personalportfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "20.6.1",
     "npm": "9.8.1"
