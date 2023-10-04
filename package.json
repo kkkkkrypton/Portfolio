@@ -2,14 +2,14 @@
   "name": "yuewang_personalportfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "20.6.1",
     "npm": "9.8.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
